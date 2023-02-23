@@ -17,7 +17,7 @@ respectively contains three unimplemented override methods to be implemented; ``
 ``fibonacciSum()`` and ``fibonacciSeqAndVal()``. A record Pair is also provide which holds two values of 
 type long and two methods ``first()`` and ``second()`` that returns the first and second values respectively.
 
-For the Reactive approach ``Observable.range()`` operator was used to create a stream of numbers whose limit  
+For the Reactive approach ``Observable.range()`` operator was used to create a stream of numbers whose limit 
 was specified by the passed limit. The ``.scan()`` operator was then applied on the stream which takes a seed 
 and a bi-function. The seed is a Pair object which contains the first two values of the fibonacci sequence 
 (0,1). The bi-function takes an accumulator and a Pair object as input and returns a Pair object whose first value 
@@ -59,6 +59,7 @@ two values are convert to a single string seperated by ":" using a StringBuilder
 ## Results
 The program was run for the different approaches using different limits and the following 
 is an example of the time elapsed for the different approaches.
+
 | limit   | Imperative | functional | Reactive  |
 | ------- | ---------- | ---------- | --------- |
 |    10   |    119ms   |     75ms   |    815ms  |
