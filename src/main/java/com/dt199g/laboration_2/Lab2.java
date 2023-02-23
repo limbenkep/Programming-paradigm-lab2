@@ -21,7 +21,7 @@ public class Lab2 {
      * @param args Command line argument for the number of elements to be calculated.
      */
     public static void main(String... args) {
-        int limit = 20;
+        int limit = 10;
         if (args != null && args.length > 0) {
             try {
                 limit = Integer.parseInt(args[0]);

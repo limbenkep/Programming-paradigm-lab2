@@ -5,9 +5,11 @@ import java.util.stream.IntStream;
 import java.util.stream.Stream;
 
 /**
- * ...
+ * The FibonacciStreamRX class implements three override methods of the FibonacciInterface interface
+ * to generate and print the fibonacci values, the sum of the values and the sequence:value pair
+ * using functional programming style.
  *
- * @author ...
+ * @author Honorine Lima
  */
 public class FibonacciStreamFP implements FibonacciInterface {
     /**

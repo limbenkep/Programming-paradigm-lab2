@@ -2,13 +2,13 @@ package com.dt199g.laboration_2;
 
 import io.reactivex.rxjava3.core.Observable;
 
-import java.util.ArrayList;
-
 
 /**
- * ...
+ * The FibonacciStreamRX class implements three override methods of the FibonacciInterface interface
+ * to generate and print the fibonacci values, the sum of the values and the sequence:value pair
+ * using reactive programming style.
  *
- * @author ...
+ * @author Honorine Lima
  */
 public class FibonacciStreamRX implements FibonacciInterface {
     /**
