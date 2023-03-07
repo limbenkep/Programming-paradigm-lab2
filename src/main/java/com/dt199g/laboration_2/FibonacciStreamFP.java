@@ -44,7 +44,7 @@ public class FibonacciStreamFP implements FibonacciInterface {
      */
     @Override public void fibonacciSeqAndVal(int limit) {
         System.out.println(
-                Stream.iterate(new int[]{0,0, 1}, val -> new int[]{val[0]+1, val[2], val[1] + val[2]})
+                Stream.iterate(new long[]{0,0, 1}, val -> new long[]{val[0]+1, val[2], val[1] + val[2]})
                         .limit(limit)
                         .map(array -> new StringBuilder().append(array[0]).append(":").append(array[1]))
                         .reduce(new StringBuilder(), (acc, s)->acc.append(" | ").append(s))
